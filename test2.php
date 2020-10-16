@@ -6,7 +6,7 @@ require_once("header.php");
 <section id="test2" class="vh100 d-flex">
     <div class="block_form">
         <form action="" method="post" class="d-flex">
-            <?php if (!isset($_POST['table'])) : ?>
+            <?php if (!isset($_POST['table']) || $_POST['table'] == "") : ?>
                 <label for="table">Sélectionnez une table :<br> <span>(De 1 à 10)</span></label>
                 <select name="table" id="selecteur">
                 <option value="">--Selectionnez une table--</option>
