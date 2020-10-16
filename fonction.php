@@ -55,7 +55,7 @@ function creation_calcul($nbr) {
         array_push($result, $c);
         array_push($calcul, [$a, $b]);
 
-        echo "<div> <label for='calcul$i'>". $calcul[$i][0] ." x " . $calcul[$i][1] . " = </label>
+        echo "<div> <label for='calcul$i' class='all_calcul'>". $calcul[$i][0] ." x " . $calcul[$i][1] . " = </label>
         <input type='number' name='result$i' id='calcul$i' class='all_calcul'>
         <input type='hidden' name='nbr1calcul$i' id='nbr1calcul$i' value='$a'>
         <input type='hidden' name='nbr2calcul$i' id='nbr2calcul$i' value='$b'> </div>";

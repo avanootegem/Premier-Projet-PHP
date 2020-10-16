@@ -38,6 +38,9 @@ require_once("header.php");
                 }    
             endif; ?>
         </form>
+        <form action="test2.php">
+                <input type="submit" value="Reset">
+            </form>
     </div>
 </section>
 

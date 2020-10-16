@@ -8,7 +8,7 @@ $bonrep = 0;
 <section id="test" class="vh100 d-flex">
     <div id="block_test" class="d-flex">
         <div id="block_form">
-            <form action="" method="post">
+            <form action="" method="post" class="all_calcul">
                 <?php if (!isset($_POST['form_submit'])) {
                     creation_calcul($nbr);
                 } else {
@@ -46,14 +46,14 @@ $bonrep = 0;
                     }
                 }
                 if ($bonrep != $nbr) {
-                    echo "<br> <input type='submit' name='form_submit' value='Valider'>
-                <input type='reset' value='Vider les cellules '>";
+                    echo "<br> <input type='submit' name='form_submit' value='Valider' class='button'>
+                <input type='reset' value='Vider les cellules' class='button'>";
                 }
                 ?>
             </form>
 
             <form action="test.php">
-                <input type="submit" value="Reset">
+                <input type="submit" value="Reset" class="button">
             </form>
         </div>
     </div>

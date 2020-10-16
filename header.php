@@ -32,7 +32,7 @@ include("tables.php");
             <ul class="w45">
                 <li> <a href="index.php">Index</a> </li>
                 <li> <a href="revisionsimple.php">Révision Simple</a> </li>
-                <li> <a href="revisionmultiple.php">Révision multiple</a> </li>
+                <li> <a href="revisionmultiple.php">Révision Multiple</a> </li>
                 <li> <a href="test.php">Test</a> </li>
                 <li> <a href="test2.php">Test 2</a> </li>
             </ul>
